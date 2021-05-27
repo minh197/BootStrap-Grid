@@ -1,16 +1,18 @@
 {
   "name": "confusion",
   "version": "1.0.0",
-  "description": "This is a website for Ristorante Con Fusion",
+  "description": "",
   "main": "index.html",
-  "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+  "dependencies": {
+    "node-sass": "^6.0.0"
   },
-  "author": "",
-  "license": "ISC",
-    "devDependencies": {
-    "lite-server": "^2.3.0"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
+  },
+  "author": "Minh Nguyen",
+  "license": "ISC"
 }
